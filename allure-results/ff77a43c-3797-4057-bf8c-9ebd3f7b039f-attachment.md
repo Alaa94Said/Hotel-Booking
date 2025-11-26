@@ -1,0 +1,182 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - link "Shady Meadows B&B" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e7]: Shady Meadows B&B
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "Rooms" [ref=e11] [cursor=pointer]:
+              - /url: /#rooms
+          - listitem [ref=e12]:
+            - link "Booking" [ref=e13] [cursor=pointer]:
+              - /url: /#booking
+          - listitem [ref=e14]:
+            - link "Amenities" [ref=e15] [cursor=pointer]:
+              - /url: /#amenities
+          - listitem [ref=e16]:
+            - link "Location" [ref=e17] [cursor=pointer]:
+              - /url: /#location
+          - listitem [ref=e18]:
+            - link "Contact" [ref=e19] [cursor=pointer]:
+              - /url: /#contact
+          - listitem [ref=e20]:
+            - link "Admin" [ref=e21] [cursor=pointer]:
+              - /url: /admin
+    - generic [ref=e25]:
+      - heading "Welcome to Shady Meadows B&B" [level=1] [ref=e26]
+      - paragraph [ref=e27]: Welcome to Shady Meadows, a delightful Bed & Breakfast nestled in the hills on Newingtonfordburyshire. A place so beautiful you will never want to leave. All our rooms have comfortable beds and we provide breakfast from the locally sourced supermarket. It is a delightful place.
+      - link "Book Now" [ref=e28] [cursor=pointer]:
+        - /url: "#booking"
+    - generic [ref=e29]:
+      - generic [ref=e33]:
+        - heading "Check Availability & Book Your Stay" [level=3] [ref=e34]
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - generic [ref=e38]: Check In
+            - textbox [ref=e41]: 26/11/2025
+          - generic [ref=e42]:
+            - generic [ref=e43]: Check Out
+            - textbox [ref=e46]: 27/11/2025
+          - button "Check Availability" [ref=e49] [cursor=pointer]
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - heading "Our Rooms" [level=2] [ref=e54]
+          - paragraph [ref=e55]: Comfortable beds and delightful breakfast from locally sourced ingredients
+        - generic [ref=e58]:
+          - img "Single Room" [ref=e60]
+          - generic [ref=e61]:
+            - heading "VIP Suite" [level=5] [ref=e62]
+            - paragraph [ref=e63]: Mock Description visible on UI
+            - generic [ref=e65]:
+              - generic [ref=e66]:
+                - generic [ref=e67]: 
+                - text: WiFi
+              - generic [ref=e68]:
+                - generic [ref=e69]: 
+                - text: TV
+          - generic [ref=e70]:
+            - generic [ref=e71]: £777 per night
+            - link "Book now" [ref=e72] [cursor=pointer]:
+              - /url: /reservation/999?checkin=2025-11-26&checkout=2025-11-27
+    - generic [ref=e74]:
+      - generic [ref=e75]:
+        - heading "Our Location" [level=2] [ref=e76]
+        - paragraph [ref=e77]: Find us in the beautiful Newingtonfordburyshire countryside
+      - generic [ref=e78]:
+        - generic [ref=e82]:
+          - generic [ref=e85]:
+            - generic:
+              - img
+          - generic [ref=e89]:
+            - generic [ref=e90]:
+              - link "Pigeon" [ref=e91] [cursor=pointer]:
+                - /url: https://pigeon-maps.js.org/
+              - text: "|"
+            - generic [ref=e92]:
+              - text: ©
+              - link "OpenStreetMap" [ref=e93] [cursor=pointer]:
+                - /url: https://www.openstreetmap.org/copyright
+              - text: contributors
+        - generic [ref=e96]:
+          - heading "Contact Information" [level=3] [ref=e97]
+          - generic [ref=e98]:
+            - generic [ref=e100]: 
+            - generic [ref=e101]:
+              - heading "Address" [level=5] [ref=e102]
+              - paragraph [ref=e103]: Shady Meadows B&B, Shadows valley, Newingtonfordburyshire, Dilbery, N1 1AA
+          - generic [ref=e104]:
+            - generic [ref=e106]: 
+            - generic [ref=e107]:
+              - heading "Phone" [level=5] [ref=e108]
+              - paragraph [ref=e109]: "012345678901"
+          - generic [ref=e110]:
+            - generic [ref=e112]: 
+            - generic [ref=e113]:
+              - heading "Email" [level=5] [ref=e114]
+              - paragraph [ref=e115]: fake@fakeemail.com
+          - separator [ref=e116]
+          - heading "Getting Here" [level=4] [ref=e117]
+          - paragraph [ref=e118]: Welcome to Shady Meadows, a delightful Bed & Breakfast nestled in the hills on Newingtonfordburyshire. A place so beautiful you will never want to leave. All our rooms have comfortable beds and we provide breakfast from the locally sourced supermarket. It is a delightful place.
+    - generic [ref=e124]:
+      - heading "Send Us a Message" [level=3] [ref=e125]
+      - generic [ref=e126]:
+        - generic [ref=e127]:
+          - generic [ref=e128]: Name
+          - textbox "Name" [ref=e129]
+        - generic [ref=e130]:
+          - generic [ref=e131]: Email
+          - textbox "Email" [ref=e132]
+        - generic [ref=e133]:
+          - generic [ref=e134]: Phone
+          - textbox "Phone" [ref=e135]
+        - generic [ref=e136]:
+          - generic [ref=e137]: Subject
+          - textbox "Subject" [ref=e138]
+        - generic [ref=e139]:
+          - generic [ref=e140]: Message
+          - textbox [ref=e141]
+        - button "Submit" [ref=e143] [cursor=pointer]
+    - contentinfo [ref=e144]:
+      - generic [ref=e145]:
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - heading "Shady Meadows B&B" [level=5] [ref=e148]
+            - paragraph [ref=e149]: Welcome to Shady Meadows, a delightful Bed & Breakfast nestled in the hills on Newingtonfordburyshire. A place so beautiful you will never want to leave. All our rooms have comfortable beds and we provide breakfast from the locally sourced supermarket. It is a delightful place.
+            - generic [ref=e150]:
+              - link "" [ref=e151] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e152]: 
+              - link "" [ref=e153] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e154]: 
+              - link "" [ref=e155] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e156]: 
+          - generic [ref=e157]:
+            - heading "Contact Us" [level=5] [ref=e158]
+            - list [ref=e159]:
+              - listitem [ref=e160]:
+                - generic [ref=e161]: 
+                - text: Shady Meadows B&B, Shadows valley, Newingtonfordburyshire, Dilbery, N1 1AA
+              - listitem [ref=e162]:
+                - generic [ref=e163]: 
+                - text: "012345678901"
+              - listitem [ref=e164]:
+                - generic [ref=e165]: 
+                - text: fake@fakeemail.com
+          - generic [ref=e166]:
+            - heading "Quick Links" [level=5] [ref=e167]
+            - list [ref=e168]:
+              - listitem [ref=e169]:
+                - link "Home" [ref=e170] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e171]:
+                - link "Rooms" [ref=e172] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e173]:
+                - link "Booking" [ref=e174] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e175]:
+                - link "Contact" [ref=e176] [cursor=pointer]:
+                  - /url: "#"
+        - separator [ref=e177]
+        - generic [ref=e179]:
+          - text: restful-booker-platform v2.1 Created by
+          - link "Mark Winteringham" [ref=e180] [cursor=pointer]:
+            - /url: http://www.mwtestconsultancy.co.uk
+          - text: "- © 2019-25"
+          - link "Cookie-Policy" [ref=e181] [cursor=pointer]:
+            - /url: /cookie
+          - text: "-"
+          - link "Privacy-Policy" [ref=e182] [cursor=pointer]:
+            - /url: /privacy
+          - text: "-"
+          - link "Admin panel" [ref=e183] [cursor=pointer]:
+            - /url: /admin
+  - alert [ref=e184]
+```
