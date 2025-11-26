@@ -236,5 +236,11 @@ This Playwright framework covers:
 - Clean reusable architecture
 - Full CI/CD pipeline
 
-You now have a production‑ready Playwright project that’s strong enough to put on your resume and demo in interviews.
+❓ Need Assistance?
+For any inquiries or collaboration opportunities, feel free to reach out:
 
+Email: Alaa.abdellal@gmail.com
+
+LinkedIn: Alaa Abdelaal
+
+GitHub: Alaa94Said

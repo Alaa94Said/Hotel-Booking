@@ -3,4 +3,11 @@
 node_modules/
 /blob-report/
 dist/
-
+/test-results/
+/playwright-report/
+/playwright/.cache/
+/playwright/.auth/
+allure-report/
+allure-results/
+tests-results/
+.env
